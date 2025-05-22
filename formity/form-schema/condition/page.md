@@ -1,20 +1,12 @@
----
-title: Condition
-nextjs:
-  metadata:
-    title: Condition - Docs
-    description: Learn what the condition element is about and how it is used in the schema.
----
+# Condition
 
 Learn what the condition element is about and how it is used in the schema.
 
----
-
-## Usage{% id="usage" %}
+## Usage
 
 The **condition** element is used to define a condition.
 
-## Structure{% id="structure" %}
+## Structure
 
 It is defined using the following structure.
 
@@ -30,7 +22,7 @@ It is defined using the following structure.
 
 The value of `if` corresponds to an [Expry](https://expry.dev) expression and it has to evaluate to a boolean value. If it is `true`, the elements inside `then` will be used; otherwise, the elements inside `else` will be used.
 
-## Example{% id="example" %}
+## Example
 
 Here is an example in which the **condition** element is used.
 

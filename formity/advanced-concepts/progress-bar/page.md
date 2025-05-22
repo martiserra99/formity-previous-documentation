@@ -1,16 +1,8 @@
----
-title: Progress bar
-nextjs:
-  metadata:
-    title: Progress bar - Docs
-    description: Learn how to add a progress bar in these forms.
----
+# Progress bar
 
 Learn how to add a progress bar in these forms.
 
----
-
-## Initial steps{% id="initial-steps" %}
+## Initial steps
 
 There is a really simple way to add a progress bar in these forms. To learn how to do it, clone the following GitHub repository so that you don't need to start from scratch.
 
@@ -24,7 +16,7 @@ Make sure you run the following command to install all the dependencies:
 npm install
 ```
 
-## Create progress bar{% id="create-progress-bar" %}
+## Create progress bar
 
 To add the progress bar we will create the `components/screen.tsx` file with the following component:
 
@@ -140,7 +132,7 @@ const components: Components<Parameters> = {
 export default components;
 ```
 
-## Create schema{% id="create-schema" %}
+## Create schema
 
 Now that we have the component created, we can use it in the schema. We can update the `schema.ts` file and use the screen component to show the progress bar:
 

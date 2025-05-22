@@ -1,20 +1,12 @@
----
-title: Variables
-nextjs:
-  metadata:
-    title: Variables - Docs
-    description: Learn what the variables element is about and how it is used in the schema.
----
+# Variables
 
 Learn what the variables element is about and how it is used in the schema.
 
----
-
-## Usage{% id="usage" %}
+## Usage
 
 The **variables** element is used to define variables.
 
-## Structure{% id="structure" %}
+## Structure
 
 It is defined using the following structure.
 
@@ -33,7 +25,7 @@ The value of `variables` corresponds to an [Expry](https://expry.dev) expression
 }
 ```
 
-## Example{% id="example" %}
+## Example
 
 Here is an example in which the **variables** element is used.
 

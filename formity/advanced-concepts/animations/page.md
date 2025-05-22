@@ -1,16 +1,8 @@
----
-title: Animations
-nextjs:
-  metadata:
-    title: Animations - Docs
-    description: Learn how to add animations in these forms by using Framer Motion.
----
+# Animations
 
 Learn how to add animations in these forms by using Framer Motion.
 
----
-
-## Initial steps{% id="initial-steps" %}
+## Initial steps
 
 To create animations in these forms we can use the [Framer Motion](https://www.framer.com/motion/) package. To learn how to do it, clone the following GitHub repository so that you don't need to start from scratch.
 
@@ -30,7 +22,7 @@ Additionally, you also need to install [Framer Motion](https://www.framer.com/mo
 npm install framer-motion
 ```
 
-## Animate form{% id="animate-form" %}
+## Animate form
 
 To animate form transitions, we will use the `AnimatePresence` component in the file `components/form.tsx`. The content of this component will be the form, and we will use the `key` prop with the `step` value to animate when it enters and when it leaves.
 
@@ -141,7 +133,7 @@ const components: Components<Parameters> = {
 
 Now that we have done that, we can see that there are already some animations when we go to the next or previous step.
 
-## Different animations{% id="different-animations" %}
+## Different animations
 
 We may want to use different animations depending on whether we are going to the next or previous step. To do it, we will create an `animate.ts` file with a context that contains data about the current animation that needs to be performed.
 
@@ -339,7 +331,7 @@ export default function Back({ onBack }: BackProps) {
 
 As you can see, we have a different animation when we go to the next or previous step. However, there is one last thing that needs to be addressed to avoid some weird behaviors.
 
-## Disable navigation{% id="disable-navigation" %}
+## Disable navigation
 
 If we go to the next or previous step while the animation is being performed we may face some weird behaviors. To ensure that doesn't happen we can disable the buttons while the animation is being performed.
 

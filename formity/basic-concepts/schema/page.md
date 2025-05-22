@@ -1,16 +1,8 @@
----
-title: Schema
-nextjs:
-  metadata:
-    title: Schema - Docs
-    description: Learn what the schema is about and how it can be used to define the forms.
----
+# Schema
 
 Learn what the schema is about and how it can be used to define the forms.
 
----
-
-## Schema{% id="schema" %}
+## Schema
 
 The schema is a JSON used to define the form. It consists of various elements of different types, and the existing ones are as follows:
 

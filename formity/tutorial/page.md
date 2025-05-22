@@ -1,16 +1,8 @@
----
-title: Tutorial
-nextjs:
-  metadata:
-    title: Tutorial - Docs
-    description: Follow this tutorial to grasp the core concepts of Formity and how it has to be used.
----
+# Tutorial
 
 Follow this tutorial to grasp the core concepts of Formity and how it has to be used.
 
----
-
-## Initial steps{% id="initial-steps" %}
+## Initial steps
 
 In this tutorial we will show you how to create a basic form. For that, you will need to clone the following GitHub repository so that you don't need to start from scratch.
 
@@ -26,7 +18,7 @@ npm install
 
 This tutorial explains how to use Formity with TypeScript, but if you want to learn how to use it with JavaScript you can still follow this tutorial since almost everything is the same. The only thing that is different is that in JavaScript you don't define the types.
 
-## Components{% id="components" %}
+## Components
 
 When creating a form, the first thing that needs to be done is to create the components that we will use. After creating these components, we will be able to reference them in the schema that defines the form.
 
@@ -179,11 +171,11 @@ In this file we have created a `components` object. This object has a property f
 
 We also have a second parameter called `render`. This parameter is a function that receives a value of type `Value`, which in this case corresponds to the reference of a component, and is responsible for rendering the component.
 
-### Parameters{% id="parameters" %}
+### Parameters
 
 As you may have noticed, the `components` object is of type `Components`, and it receives a type called `Parameters`. This type defines the parameters that must be used for each component.
 
-### Variables{% id="variables" %}
+### Variables
 
 If you look closer at how the components are referenced in the schema, you will see that some values are strings that start with `$`.
 
@@ -209,7 +201,7 @@ These values are variables, and there are some predefined variables that can be 
 - `onNext`: Function that we need to call to go to the next step.
 - `onBack`: Function that we need to call to go to the previous step.
 
-### Step{% id="step" %}
+### Step
 
 Whenever we go to the next step, if the rendered components are the same, the state of the form will remain unchanged. To reset the state of the components, we can pass the step variable as the value to the `key` prop of the form.
 
@@ -233,7 +225,7 @@ const components: Components<Parameters> = {
 // ...
 ```
 
-## Schema{% id="schema" %}
+## Schema
 
 We can now create the schema that defines the form. The schema is a JSON containing elements of different types. By using these elements in combination, we can create any form we want in a very simple way.
 
@@ -366,7 +358,7 @@ const schema: Schema = [
 // ...
 ```
 
-## Formity{% id="formity" %}
+## Formity
 
 The last thing we need to do is use the `Formity` component. In this component, we have to pass the components, the schema, and a function that is called when the form is submitted. To do this, we will write the following code in `app/page.tsx`:
 

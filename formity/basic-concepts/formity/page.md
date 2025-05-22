@@ -1,16 +1,8 @@
----
-title: Formity
-nextjs:
-  metadata:
-    title: Formity - Docs
-    description: Basic concepts about the main component of this package.
----
+# Formity
 
 Basic concepts about the main component of this package.
 
----
-
-## Formity{% id="formity" %}
+## Formity
 
 The `Formity` component is the main component of this package. It has the responsability to render the form and it receives the following props:
 

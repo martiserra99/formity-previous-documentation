@@ -1,20 +1,12 @@
----
-title: Return
-nextjs:
-  metadata:
-    title: Return - Docs
-    description: Learn what the return element is about and how it is used in the schema.
----
+# Return
 
 Learn what the return element is about and how it is used in the schema.
 
----
-
-## Usage{% id="usage" %}
+## Usage
 
 The **return** element is used to define what the form returns.
 
-## Structure{% id="return" %}
+## Structure
 
 It is defined using the following structure.
 
@@ -24,7 +16,7 @@ It is defined using the following structure.
 
 The value of `return` corresponds to an [Expry](https://expry.dev) expression and it can evaluate to anything you want.
 
-## Example{% id="example" %}
+## Example
 
 Here is an example in which the **return** element is used.
 

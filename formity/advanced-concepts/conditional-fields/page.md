@@ -1,16 +1,8 @@
----
-title: Conditional fields
-nextjs:
-  metadata:
-    title: Conditional fields - Docs
-    description: Learn how to add fields that appear when a condition is met in these forms.
----
+# Conditional fields
 
 Learn how to add fields that appear when a condition is met in these forms.
 
----
-
-## Initial steps{% id="initial-steps" %}
+## Initial steps
 
 This package allows you to create fields that appear when a condition is met in a really simple way. To learn how to do it, clone the following GitHub repository so that you don't need to start from scratch.
 
@@ -24,7 +16,7 @@ Make sure you run the following command to install all the dependencies:
 npm install
 ```
 
-## Create conditional field{% id="create-conditional-field" %}
+## Create conditional field
 
 We will create the `components/conditional-field.tsx` file to create conditional fields. At this file we will create the following component:
 
@@ -99,7 +91,7 @@ const components: Components<Parameters> = {
 export default components;
 ```
 
-## Create schema{% id="create-schema" %}
+## Create schema
 
 Now that we have the component created, we can use it in the schema. We can update the `schema.ts` file and use the component to show a field conditionally:
 

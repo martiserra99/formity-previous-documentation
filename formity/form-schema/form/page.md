@@ -1,20 +1,12 @@
----
-title: Form
-nextjs:
-  metadata:
-    title: Form - Docs
-    description: Learn what the form element is about and how it is used in the schema.
----
+# Form
 
 Learn what the form element is about and how it is used in the schema.
 
----
-
-## Usage{% id="form" %}
+## Usage
 
 The **form** element is used to define a step in the form.
 
-## Structure{% id="form" %}
+## Structure
 
 It is defined using the following structure.
 
@@ -28,7 +20,7 @@ It is defined using the following structure.
 }
 ```
 
-### defaultValues{% id="default-values" %}
+### defaultValues
 
 The `defaultValues` property defines the default values of the form.
 
@@ -47,7 +39,7 @@ Its value corresponds to an [Expry](https://expry.dev) expression and it has to 
 
 Whenever the user goes to the next or previous step and then goes back to the same one, if the array of strings is the same, it will have as default value the value that was introduced before. It is especially helpful when dealing with loops.
 
-### resolver{% id="resolver" %}
+### resolver
 
 The `resolver` property defines the validation rules of the form.
 
@@ -68,7 +60,7 @@ Its value corresponds to an [Expry](https://expry.dev) expression and it has to 
 
 The expressions that have to evaluate to boolean values have access to the values of the form as variables. We can use them to perform any validation logic we want.
 
-### render{% id="render" %}
+### render
 
 The `render` property defines what the form needs to render.
 
@@ -112,7 +104,7 @@ Its value corresponds to an [Expry](https://expry.dev) expression and it has to 
 }
 ```
 
-## Example{% id="example" %}
+## Example
 
 Here is an example in which the **form** element is used.
 

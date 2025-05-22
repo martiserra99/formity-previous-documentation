@@ -1,16 +1,8 @@
----
-title: Components
-nextjs:
-  metadata:
-    title: Components - Docs
-    description: Learn how the components need to be defined and used with Formity.
----
+# Components
 
 Learn how the components need to be defined and used with Formity.
 
----
-
-## Components{% id="components" %}
+## Components
 
 When creating a form, the first thing that needs to be done is to create the components that we will use. After creating these components, we will be able to reference them in the schema that defines the form.
 
@@ -161,11 +153,11 @@ This object is the one that we need to pass to the `Formity` component. It has a
 
 We also have a second parameter called `render`. This parameter is a function that receives a value of type `Value`, which in this case corresponds to the reference of a component, and is responsible for rendering the component.
 
-### Parameters{% id="parameters" %}
+### Parameters
 
 As you may have noticed, the `components` object is of type `Components`, and it receives a type called `Parameters`. This type defines the parameters that must be used for each component.
 
-### Variables{% id="variables" %}
+### Variables
 
 If you look closer at how the components are referenced in the schema, you will see that some values are strings that start with `$`.
 
@@ -192,7 +184,7 @@ These values are variables, and there are some predefined variables that can be 
 - `onBack`: Function that we need to call to go to the previous step.
 - `getFlow`: Function that is used to get the current state of the form.
 
-### Step{% id="step" %}
+### Step
 
 Whenever we go to the next step, if the rendered components are the same, the state of the form will remain unchanged. To reset the state of the components, we can pass the step variable as the value to the `key` prop of the form.
 
@@ -216,7 +208,7 @@ const components: Components<Parameters> = {
 // ...
 ```
 
-## useFormity{% id="use-formity" %}
+## useFormity
 
 Apart from accessing these variables from the schema, we can also access them by using the `useFormity` hook. The only thing to keep in mind is that this hook will only work if it is being used in a component that is rendered from the schema.
 

@@ -1,16 +1,8 @@
----
-title: Variables
-nextjs:
-  metadata:
-    title: Variables - Docs
-    description: Learn how we can pass additional variables to the schema.
----
+# Variables
 
 Learn how we can pass additional variables to the schema.
 
----
-
-## Variables{% id="variables" %}
+## Variables
 
 We can pass additional variables to the schema using the `Formity` component. We just need to pass the variables to the `variables` prop:
 

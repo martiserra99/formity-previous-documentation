@@ -1,20 +1,12 @@
----
-title: Loop
-nextjs:
-  metadata:
-    title: Loop - Docs
-    description: Learn what the loop element is about and how it is used in the schema.
----
+# Loop
 
 Learn what the loop element is about and how it is used in the schema.
 
----
-
-## Usage{% id="usage" %}
+## Usage
 
 The **loop** element is used to define a loop.
 
-## Structure{% id="stucture" %}
+## Structure
 
 It is defined using the following structure.
 
@@ -29,7 +21,7 @@ It is defined using the following structure.
 
 The value of `loop` corresponds to an [Expry](https://expry.dev) expression and it has to evaluate to a boolean value. While the boolean is `true`, the elements inside `do` will be used.
 
-## Example{% id="example" %}
+## Example
 
 Here is an example in which the **loop** element is used.
 

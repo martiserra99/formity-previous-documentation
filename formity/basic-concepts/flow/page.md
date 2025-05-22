@@ -1,16 +1,8 @@
----
-title: Flow
-nextjs:
-  metadata:
-    title: Flow - Docs
-    description: Learn how we can save the form state to use it later on.
----
+# Flow
 
 Learn how we can save the form state to use it later on.
 
----
-
-## Flow{% id="flow" %}
+## Flow
 
 We can get the current state of the form by using the `getFlow` function. This function can be accessed as a variable when we reference the components in the schema, or by using the `useFormity` hook.
 
