@@ -4,10 +4,11 @@ Follow this tutorial to grasp the core concepts of Formity and how it has to be 
 
 ## Initial steps
 
-In this tutorial we will show you how to create a basic form. For that, you will need to clone the following GitHub repository so that you don't need to start from scratch.
+In this tutorial we will show you how to create a basic form. For that, you will need to navigate to the following folder in the `formity-prev-docs-code` repository. Clone it first if you haven't already.
 
 ```bash
-git clone https://github.com/martiserra99/formity-previous-tutorial
+git clone https://github.com/martiserra99/formity-prev-docs-code
+cd formity-prev-docs-code/formity/tutorial
 ```
 
 Make sure you run the following command to install all the dependencies:

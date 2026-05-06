@@ -4,10 +4,11 @@ Learn how to add a progress bar in these forms.
 
 ## Initial steps
 
-There is a really simple way to add a progress bar in these forms. To learn how to do it, clone the following GitHub repository so that you don't need to start from scratch.
+There is a really simple way to add a progress bar in these forms. To learn how to do it, navigate to the following folder in the `formity-prev-docs-code` repository. Clone it first if you haven't already.
 
 ```bash
-git clone https://github.com/martiserra99/formity-previous-progress-bar
+git clone https://github.com/martiserra99/formity-prev-docs-code
+cd formity-prev-docs-code/formity/progress-bar
 ```
 
 Make sure you run the following command to install all the dependencies:

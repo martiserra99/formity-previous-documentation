@@ -12,10 +12,11 @@ Follow this tutorial to grasp the core concepts of Formity and how it has to be 
 
 ## Initial steps{% id="initial-steps" %}
 
-In this tutorial, we'll show you how to turn a basic single-step form into a dynamic multi-step form with conditional logic. The starting point is already set up in the GitHub repository below, so go ahead and clone it to follow along.
+In this tutorial, we'll show you how to turn a basic single-step form into a dynamic multi-step form with conditional logic. The starting point is already set up in the `formity-prev-docs-code` repository. Clone it if you haven't already, then navigate to the corresponding folder.
 
 ```bash
-git clone https://github.com/martiserra99/formity-tutorial
+git clone https://github.com/martiserra99/formity-prev-docs-code
+cd formity-prev-docs-code/@formity/react/v1/tutorial
 ```
 
 Make sure you run the following command to install all the dependencies.
@@ -1526,10 +1527,10 @@ export const schema: Schema<Values, Inputs, Params> = [
 
 You've successfully completed the tutorial. To dive deeper into Formity's capabilities, you can continue with the following sections.
 
-**Important:** The upcoming sections use a different setup. Do not combine them with the tutorial code. Instead, clone the following Github repository.
+**Important:** The upcoming sections use a different setup. Do not combine them with the tutorial code. Instead, navigate to the following folder in the same `formity-prev-docs-code` repository.
 
 ```bash
-git clone https://github.com/martiserra99/formity-docs
+cd formity-prev-docs-code/@formity/react/v1/docs
 ```
 
 This codebase is similar to the one in this tutorial, but without the submission logic.

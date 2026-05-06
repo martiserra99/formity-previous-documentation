@@ -112,8 +112,9 @@ export const expry = createExpry<Operations>(
 );
 ```
 
-If you want to take a look at a codebase with a form defined with Expry we strongly suggest you to clone the following Github repository.
+If you want to take a look at a codebase with a form defined with Expry, we strongly suggest you to navigate to the following folder in the `formity-prev-docs-code` repository. Clone it first if you haven't already.
 
 ```bash
-git clone https://github.com/martiserra99/expry-formity
+git clone https://github.com/martiserra99/formity-prev-docs-code
+cd formity-prev-docs-code/@formity/react/v1/expry-formity
 ```

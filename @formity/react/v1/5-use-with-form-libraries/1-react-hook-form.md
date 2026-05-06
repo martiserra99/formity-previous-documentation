@@ -14,10 +14,11 @@ Learn how to integrate Formity with React Hook Form with an example implementati
 
 Formity can be easily integrated with React Hook Form, combining dynamic multi-step flows with powerful form state management and validation.
 
-To learn how this integration works, clone the following example repository:
+To learn how this integration works, navigate to the following folder in the `formity-prev-docs-code` repository. Clone it first if you haven't already.
 
 ```bash
-git clone https://github.com/martiserra99/formity-docs
+git clone https://github.com/martiserra99/formity-prev-docs-code
+cd formity-prev-docs-code/@formity/react/v1/docs
 ```
 
 Make sure you run the following command to install all the dependencies.

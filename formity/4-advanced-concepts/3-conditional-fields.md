@@ -4,10 +4,11 @@ Learn how to add fields that appear when a condition is met in these forms.
 
 ## Initial steps
 
-This package allows you to create fields that appear when a condition is met in a really simple way. To learn how to do it, clone the following GitHub repository so that you don't need to start from scratch.
+This package allows you to create fields that appear when a condition is met in a really simple way. To learn how to do it, navigate to the following folder in the `formity-prev-docs-code` repository. Clone it first if you haven't already.
 
 ```bash
-git clone https://github.com/martiserra99/formity-previous-conditional-fields
+git clone https://github.com/martiserra99/formity-prev-docs-code
+cd formity-prev-docs-code/formity/conditional-fields
 ```
 
 Make sure you run the following command to install all the dependencies:

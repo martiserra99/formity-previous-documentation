@@ -4,10 +4,11 @@ Learn how to add animations in these forms by using Framer Motion.
 
 ## Initial steps
 
-To create animations in these forms we can use the [Framer Motion](https://www.framer.com/motion/) package. To learn how to do it, clone the following GitHub repository so that you don't need to start from scratch.
+To create animations in these forms we can use the [Framer Motion](https://www.framer.com/motion/) package. To learn how to do it, navigate to the following folder in the `formity-prev-docs-code` repository. Clone it first if you haven't already.
 
 ```bash
-git clone https://github.com/martiserra99/formity-previous-animations
+git clone https://github.com/martiserra99/formity-prev-docs-code
+cd formity-prev-docs-code/formity/animations
 ```
 
 Make sure you run the following command to install all the dependencies:

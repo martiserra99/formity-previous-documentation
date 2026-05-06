@@ -12,10 +12,11 @@ Learn how to add animations to a multi-step form using Motion.
 
 ## Initial steps{% id="initial-steps" %}
 
-We'll show you how to add animations to a multi-step form using [Motion](https://www.framer.com/motion/). A pre-built form is available in the GitHub repository below, so go ahead and clone it to follow along.
+We'll show you how to add animations to a multi-step form using [Motion](https://www.framer.com/motion/). A pre-built form is available in the `formity-prev-docs-code` repository. Clone it if you haven't already, then navigate to the corresponding folder.
 
 ```bash
-git clone https://github.com/martiserra99/formity-animations
+git clone https://github.com/martiserra99/formity-prev-docs-code
+cd formity-prev-docs-code/@formity/react/v1/animations
 ```
 
 Make sure you run the following command to install all the dependencies.
