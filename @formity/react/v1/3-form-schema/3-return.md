@@ -1,16 +1,8 @@
----
-title: Return
-nextjs:
-  metadata:
-    title: Return - Docs
-    description: Learn how the return element is used in the schema.
----
+# Return
 
 Learn how the return element is used in the schema.
 
----
-
-## Usage{% id="usage" %}
+## Usage
 
 The **return** element is used to define what the multi-step form returns. This element will trigger the `onReturn` callback function of the `Formity` component.
 

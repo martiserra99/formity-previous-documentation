@@ -1,16 +1,8 @@
----
-title: Conditional fields
-nextjs:
-  metadata:
-    title: Conditional fields - Docs
-    description: Learn how to add fields that appear when a condition is met.
----
+# Conditional fields
 
 Learn how to add fields that appear when a condition is met.
 
----
-
-## Conditional fields{% id="conditional-fields" %}
+## Conditional fields
 
 We can create a field that appear when a condition is met. To do it, we can create a file named `conditional-field.tsx` in the `components` folder with the following code.
 

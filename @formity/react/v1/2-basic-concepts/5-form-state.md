@@ -1,16 +1,8 @@
----
-title: Form state
-nextjs:
-  metadata:
-    title: Form state - Docs
-    description: Learn what the form state is about and how it can be used.
----
+# Form state
 
 Learn what the form state is about and how it can be used.
 
----
-
-## Form state{% id="form-state" %}
+## Form state
 
 In the form element's render function, the `getState` and `setState` functions are made available, allowing you to retrieve and modify the multi-step form's state.
 
@@ -408,7 +400,7 @@ export default function App() {
 
 When using this prop, it's common to pass in a previously saved state rather than defining it manually. This allows you to resume from the last completed step.
 
-## Structure{% id="structure" %}
+## Structure
 
 **The state structure is managed internally by Formity** and is designed to work automatically without requiring your involvement. In most cases, you won’t need to understand or modify it.
 

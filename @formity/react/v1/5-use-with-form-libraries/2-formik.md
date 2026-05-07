@@ -1,16 +1,8 @@
----
-title: Formik
-nextjs:
-  metadata:
-    title: Formik - Docs
-    description: Learn how to integrate Formity with Formik with an example implementation.
----
+# Formik
 
 Learn how to integrate Formity with Formik with an example implementation.
 
----
-
-## Formik{% id="formik" %}
+## Formik
 
 Formity can be easily integrated with Formik, combining dynamic multi-step flows with powerful form state management and validation.
 

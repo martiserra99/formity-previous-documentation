@@ -1,16 +1,8 @@
----
-title: Schema
-nextjs:
-  metadata:
-    title: Schema - Docs
-    description: Learn what the schema is about and how it can be used to define the forms.
----
+# Schema
 
 Learn what the schema is about and how it can be used to define the forms.
 
----
-
-## Schema{% id="schema" %}
+## Schema
 
 The schema is used to define the structure and behavior of the multi-step form. It is an array of different elements, and the existing ones are as follows:
 

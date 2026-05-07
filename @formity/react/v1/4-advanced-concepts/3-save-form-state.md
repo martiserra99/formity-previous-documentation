@@ -1,16 +1,8 @@
----
-title: Save form state
-nextjs:
-  metadata:
-    title: Save form state - Docs
-    description: Learn how to save the form state to continue later from the same point.
----
+# Save form state
 
 Learn how to save the form state to continue later from the same point.
 
----
-
-## Save form state{% id="save-form-state" %}
+## Save form state
 
 We can save the form state to continue later from the same point. To do it, we need to use the `getState` function. We'll access this function using the Context API, so we'll need to update the files in the `multi-step` folder.
 
@@ -403,7 +395,7 @@ export function FormStepRow({ children }: FormStepRowProps) {
 }
 ```
 
-## Use form state{% id="initial-form-state" %}
+## Use form state
 
 To start the form from the state we previously saved we can use the `initialState` prop of the `Formity` component as shown below.
 

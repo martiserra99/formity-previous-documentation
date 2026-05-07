@@ -1,16 +1,8 @@
----
-title: Inputs
-nextjs:
-  metadata:
-    title: Inputs - Docs
-    description: Learn how to pass values to be used inside the schema.
----
+# Inputs
 
 Learn how to pass values to be used inside the schema.
 
----
-
-## Inputs{% id="inputs" %}
+## Inputs
 
 As we move forward, an object with values is made available to each element. It contains the values from the form and variables elements encountered so far.
 

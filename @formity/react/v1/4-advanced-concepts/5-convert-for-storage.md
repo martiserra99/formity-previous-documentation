@@ -1,16 +1,8 @@
----
-title: Convert for storage
-nextjs:
-  metadata:
-    title: Convert for storage - Docs
-    description: Learn how to convert your forms to JSON for efficient storage.
----
+# Convert for storage
 
 Learn how to convert your forms to JSON for efficient storage.
 
----
-
-## Overview{% id="overview" %}
+## Overview
 
 We may face the challenge of having to store forms in databases with a structured format. JSON would be a reliable choice, as it is widely supported and easy to work with.
 
@@ -18,7 +10,7 @@ Since Formity forms are defined with JavaScript, they need to have a correspondi
 
 This is where [Expry](https://www.expry.dev/) steps in, a package used to map JSON to JavaScript. It allows custom mappings, provides built-in operators, and offers first-class support for Formity.
 
-## Expry{% id="expry" %}
+## Expry
 
 Expry allows you to define logic using a simple JSON syntax and convert it into JavaScript code. You can either define your own mappings from JSON to JavaScript or take advantage of the built-in operators that we provide.
 

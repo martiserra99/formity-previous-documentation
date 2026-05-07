@@ -1,16 +1,8 @@
----
-title: Params
-nextjs:
-  metadata:
-    title: Params - Docs
-    description: Learn how to pass values that can be used when rendering each form.
----
+# Params
 
 Learn how to pass values that can be used when rendering each form.
 
----
-
-## Params{% id="Params" %}
+## Params
 
 The `params` prop of the `Formity` component allows us to pass values meant to be used when rendering each form. Unlike the `inputs` prop, these values are exclusively for rendering purposes, and any changes to them will dynamically update the form.
 

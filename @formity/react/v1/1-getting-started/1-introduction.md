@@ -1,16 +1,8 @@
----
-title: Introduction
-nextjs:
-  metadata:
-    title: Introduction - Docs
-    description: Take a look at this introduction to have a better idea of what Formity is about.
----
+# Introduction
 
 Take a look at this introduction to have a better idea of what Formity is about.
 
----
-
-## Overview{% id="overview" %}
+## Overview
 
 Formity is an advanced form-building package designed to help React developers create advanced multi-step forms.
 
@@ -18,7 +10,7 @@ What sets Formity apart from other form libraries is its unique ability to adapt
 
 This powerful feature enables developers to craft highly personalized and interactive forms without the need for complex conditional logic or cumbersome code.
 
-## Installation{% id="installation" %}
+## Installation
 
 To install this package you have to run the following command.
 
@@ -28,7 +20,7 @@ npm install @formity/react
 
 Formity works seamlessly with libraries like [React Hook Form](https://react-hook-form.com/), [Formik](https://formik.org/), and [TanStack Form](https://tanstack.com/form/latest), so you'll typically install it alongside one of them.
 
-## Usage{% id="usage" %}
+## Usage
 
 The core of this package is the `Formity` component. It renders the multi-step form and these are the most important props:
 

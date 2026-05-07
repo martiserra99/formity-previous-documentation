@@ -1,16 +1,8 @@
----
-title: Yield
-nextjs:
-  metadata:
-    title: Yield - Docs
-    description: Learn how the yield element is used in the schema.
----
+# Yield
 
 Learn how the yield element is used in the schema.
 
----
-
-## Usage{% id="usage" %}
+## Usage
 
 The **yield** element is used to yield values when navigating between steps. When values are yielded the `onYield` callback of the `Formity` component will be called.
 

@@ -1,16 +1,8 @@
----
-title: Switch
-nextjs:
-  metadata:
-    title: Switch - Docs
-    description: Learn how the switch element is used in the schema.
----
+# Switch
 
 Learn how the switch element is used in the schema.
 
----
-
-## Usage{% id="usage" %}
+## Usage
 
 The **switch** element is used to define multiple conditions.
 

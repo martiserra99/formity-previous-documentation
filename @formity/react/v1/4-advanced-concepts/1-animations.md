@@ -1,16 +1,8 @@
----
-title: Animations
-nextjs:
-  metadata:
-    title: Animations - Docs
-    description: Learn how to add animations to a multi-step form using Motion.
----
+# Animations
 
 Learn how to add animations to a multi-step form using Motion.
 
----
-
-## Initial steps{% id="initial-steps" %}
+## Initial steps
 
 We'll show you how to add animations to a multi-step form using [Motion](https://www.framer.com/motion/). A pre-built form is available in the `formity-prev-docs-code` repository. Clone it if you haven't already, then navigate to the corresponding folder.
 
@@ -31,7 +23,7 @@ Additionally, you also need to install [Motion](https://www.framer.com/motion/) 
 npm install motion
 ```
 
-## Key prop{% id="key-prop" %}
+## Key prop
 
 If you look at `schema.tsx`, you'll see that each `FormStep` receives a `key` prop. To animate form transitions, we need to use the `key` inside the `MultiStep` component.
 
@@ -354,7 +346,7 @@ export const schema: Schema<Values, Inputs, Params> = [
 ];
 ```
 
-## Animation{% id="animation" %}
+## Animation
 
 After that, we need to use `motion` and `AnimatePresence` to ensure the form transition plays correctly when the `key` prop changes.
 
@@ -414,7 +406,7 @@ export function MultiStep<T extends Record<string, unknown>>({
 }
 ```
 
-## Block interaction{% id="block-interaction" %}
+## Block interaction
 
 While we are transitioning to the next form, we may want to block the interaction with the current form. To do it, we first need to update `types.ts` to include the `moving` property as shown below.
 
@@ -935,7 +927,7 @@ export function MultiStep<T extends Record<string, unknown>>({
 }
 ```
 
-## Animation direction{% id="animation-direction" %}
+## Animation direction
 
 To play different animations when navigating forward or backward, we need to track the animation direction. For this reason, we need to update `types.ts` as shown below.
 
@@ -1061,7 +1053,7 @@ function motionProps(animate: "next" | "back" | false): MotionProps {
 }
 ```
 
-## Progress bar{% id="progress-bar" %}
+## Progress bar
 
 We could also add a progress bar that is animated every time we go to a different step. To do it, we will create a `FormStepContainer` component as shown below.
 

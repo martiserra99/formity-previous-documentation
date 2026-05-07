@@ -1,16 +1,8 @@
----
-title: Tutorial
-nextjs:
-  metadata:
-    title: Tutorial - Docs
-    description: Follow this tutorial to grasp the core concepts of Formity and how it has to be used.
----
+# Tutorial
 
 Follow this tutorial to grasp the core concepts of Formity and how it has to be used.
 
----
-
-## Initial steps{% id="initial-steps" %}
+## Initial steps
 
 In this tutorial, we'll show you how to turn a basic single-step form into a dynamic multi-step form with conditional logic. The starting point is already set up in the `formity-prev-docs-code` repository. Clone it if you haven't already, then navigate to the corresponding folder.
 
@@ -27,7 +19,7 @@ npm install
 
 This tutorial explains how to use Formity with TypeScript, but if you want to learn how to use it with JavaScript you can still follow this tutorial since almost everything is the same. The only thing that is different is that in JavaScript you don't define the types.
 
-## Single-step form{% id="single-step-form" %}
+## Single-step form
 
 If you take a look at the `app.tsx` file, you'll find a single-step form already in place. This form is built using [React Hook Form](https://react-hook-form.com/). However, you're not restricted to this library. Formity is designed to work smoothly with any single-step form library you choose.
 
@@ -106,7 +98,7 @@ export default function App() {
 }
 ```
 
-## Formity component{% id="formity-component" %}
+## Formity component
 
 To get started with Formity, the first thing we'll do is use the `Formity` component. It is the one that renders the multi-step form, and these are the most important props:
 
@@ -138,7 +130,7 @@ export default function App() {
 }
 ```
 
-## Form schema{% id="form-schema" %}
+## Form schema
 
 The next step is to create the schema, which defines the structure and behavior of the multi-step form. To do this, we'll create a `schema.tsx` file with the following code.
 
@@ -667,7 +659,7 @@ export const schema: Schema<Values> = [
 
 You've successfully created a multi-step form with conditional logic. Be sure to explore the other schema elements to see everything Formity can do.
 
-## Form submission{% id="form-submission" %}
+## Form submission
 
 Until now, we have shown the values we want to submit. Now, we need to create the logic to submit these values and keep track of the submission state. To do this, we'll start by creating a `types.ts` file with the following code.
 
@@ -1037,7 +1029,7 @@ export default function App() {
 }
 ```
 
-## Context{% id="context" %}
+## Context
 
 One last tip before wrapping up — using the Context API instead of passing the navigation functions and the status directly to the components can lead to cleaner code.
 
@@ -1523,7 +1515,7 @@ export const schema: Schema<Values, Inputs, Params> = [
 ];
 ```
 
-## Next steps{% id="next-steps" %}
+## Next steps
 
 You've successfully completed the tutorial. To dive deeper into Formity's capabilities, you can continue with the following sections.
 

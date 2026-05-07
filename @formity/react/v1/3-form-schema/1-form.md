@@ -1,16 +1,8 @@
----
-title: Form
-nextjs:
-  metadata:
-    title: Form - Docs
-    description: Learn how the form element is used in the schema.
----
+# Form
 
 Learn how the form element is used in the schema.
 
----
-
-## Usage{% id="usage" %}
+## Usage
 
 The **form** element is used to define a form in the multi-step form.
 

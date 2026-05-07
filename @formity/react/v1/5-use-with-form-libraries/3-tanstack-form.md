@@ -1,16 +1,8 @@
----
-title: TanStack Form
-nextjs:
-  metadata:
-    title: TanStack Form - Docs
-    description: Learn how to integrate Formity with TanStack Form with an example implementation.
----
+# TanStack Form
 
 Learn how to integrate Formity with TanStack Form with an example implementation.
 
----
-
-## TanStack Form{% id="tanstack-form" %}
+## TanStack Form
 
 Formity can be easily integrated with TanStack Form, combining dynamic multi-step flows with powerful form state management and validation.
 

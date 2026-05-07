@@ -1,16 +1,8 @@
----
-title: Loop
-nextjs:
-  metadata:
-    title: Loop - Docs
-    description: Learn how the loop element is used in the schema.
----
+# Loop
 
 Learn how the loop element is used in the schema.
 
----
-
-## Usage{% id="usage" %}
+## Usage
 
 The **loop** element is used to define a loop.
 

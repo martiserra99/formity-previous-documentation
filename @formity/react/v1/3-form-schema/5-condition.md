@@ -1,16 +1,8 @@
----
-title: Condition
-nextjs:
-  metadata:
-    title: Condition - Docs
-    description: Learn how the condition element is used in the schema.
----
+# Condition
 
 Learn how the condition element is used in the schema.
 
----
-
-## Usage{% id="usage" %}
+## Usage
 
 The **condition** element is used to define a condition.
 

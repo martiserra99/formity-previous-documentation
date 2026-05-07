@@ -1,16 +1,8 @@
----
-title: Jump to steps
-nextjs:
-  metadata:
-    title: Jump to steps - Docs
-    description: Learn how to jump to specific steps by updating the state.
----
+# Jump to steps
 
 Learn how to jump to specific steps by updating the state.
 
----
-
-## Multi-step form{% id="multi-step-form" %}
+## Multi-step form
 
 We can jump to specific steps by updating the state of the multi-step form. To add this functionality, we will create the multi-step form in a different way, and we'll start by updating the `schema.tsx` file with the following code.
 
@@ -199,7 +191,7 @@ export const schema: Schema<Values> = [
 
 As you may have noticed, the form values are not provided using the `values` function. That's because we'll handle the form values in a different way.
 
-## Form fields{% id="form-fields" %}
+## Form fields
 
 We'll create a `fields` object with all the values of all the forms of the multi-step form. This object will be passed using the `params` prop of the `Formity` component.
 
@@ -437,7 +429,7 @@ export default function App() {
 }
 ```
 
-## Field changes{% id="field-changes" %}
+## Field changes
 
 We need to update the `fields` object every time form values are changed. To do it, we need to include an `onChange` prop to the `FormStep` component as shown below.
 
@@ -772,7 +764,7 @@ export default function App() {
 }
 ```
 
-## Submit form{% id="submit-form" %}
+## Submit form
 
 We need to pass an `onSubmit` function using the `params` prop of `Formity`. It will be called on the last step, and to do it we need to update `schema.tsx` as shown below.
 
@@ -1044,7 +1036,7 @@ export default function App() {
 }
 ```
 
-## Steps component{% id="steps-component" %}
+## Steps component
 
 We'll create a `Steps` component used to navigate to specific steps, and we will start by creating a `components/steps.tsx` file with the following code.
 
@@ -1313,7 +1305,7 @@ export const schema: Schema<Values, Inputs, Params> = [
 ];
 ```
 
-## Completed steps{% id="completed-steps" %}
+## Completed steps
 
 The `Steps` component should indicate what are the steps that have been completed. To do it, we'll use validation rules to check what are the completed steps.
 
@@ -1633,7 +1625,7 @@ export const schema: Schema<Values, Inputs, Params> = [
 ];
 ```
 
-## Jump to steps{% id="jump-to-steps" %}
+## Jump to steps
 
 To jump to steps, we need to use the `setState` function. We'll access this function using the Context API, so we'll need to update the files in the `multi-step` folder.
 
@@ -2038,7 +2030,7 @@ export const schema: Schema<Values, Inputs, Params> = [
 ];
 ```
 
-## Block submit{% id="disable-button" %}
+## Block submit
 
 Lastly, we need to disable the button on the last step when there are uncompleted steps. To do that, we'll update the `schema.tsx` file as shown below.
 

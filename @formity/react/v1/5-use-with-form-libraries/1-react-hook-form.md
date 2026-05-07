@@ -1,16 +1,8 @@
----
-title: React Hook Form
-nextjs:
-  metadata:
-    title: React Hook Form - Docs
-    description: Learn how to integrate Formity with React Hook Form with an example implementation.
----
+# React Hook Form
 
 Learn how to integrate Formity with React Hook Form with an example implementation.
 
----
-
-## React Hook Form{% id="react-hook-form" %}
+## React Hook Form
 
 Formity can be easily integrated with React Hook Form, combining dynamic multi-step flows with powerful form state management and validation.
 
